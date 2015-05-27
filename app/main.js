@@ -2,9 +2,9 @@
 
 import { _ } from 'underscore';
 
-import { message } from './messageTpl';
+import { message } from './message.html';
 
-import { navbar } from './navbarTpl';
+import { navbar } from './navbar.html';
 
 var aMessage = 'Webber-fucking-Agnew?';
 
