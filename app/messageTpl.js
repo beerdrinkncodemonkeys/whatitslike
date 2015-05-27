@@ -1,0 +1,1 @@
+export var messageTpl = "<h1 class='text-center'> <%= message %> </h1>";
