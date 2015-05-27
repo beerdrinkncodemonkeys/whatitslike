@@ -1,0 +1,1 @@
+The javascripts in this folder are the transpiled artificats from the Babel ES6 transpiler. Refer to whatitslike/app for the pre-transpiled code.
