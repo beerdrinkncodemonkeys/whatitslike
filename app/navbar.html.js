@@ -1,6 +1,6 @@
 import { _ } from 'underscore';
 
-export var navbar = _.template(`
+export let navbar = _.template(`
     <nav class="navbar navbar-default">
         <div class="container-fluid">    
         <div class="navbar-header">

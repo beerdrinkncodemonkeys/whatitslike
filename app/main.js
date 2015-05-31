@@ -6,13 +6,15 @@ import { message } from './message.html';
 
 import { navbar } from './navbar.html';
 
-var aMessage = 'Webber-fucking-Agnew?';
+import { pulse } from './pulse.html';
+
+let aMessage = 'Webber-fucking-Agnew?';
 
 $( function() {
 
     $( '#app' ).append( navbar );
 
-    $( '#app' ).append( message( {message: aMessage}) );    
+    $( '#app' ).append( pulse );    
 
 } );
 
