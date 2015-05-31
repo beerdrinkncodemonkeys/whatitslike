@@ -8,13 +8,15 @@ import { navbar } from './navbar.html';
 
 import { pulse } from './pulse.html';
 
-let aMessage = 'Webber-fucking-Agnew?';
+import { beat } from './beat.html';
 
 $( function() {
 
     $( '#app' ).append( navbar );
 
-    $( '#app' ).append( pulse );    
+    $( '#app' ).append( pulse );
+
+    $( '#pulse-1').append( beat );
 
 } );
 

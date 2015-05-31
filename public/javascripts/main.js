@@ -8,11 +8,13 @@ var _navbar = require('./navbar.html');
 
 var _pulse = require('./pulse.html');
 
-var aMessage = 'Webber-fucking-Agnew?';
+var _beat = require('./beat.html');
 
 $(function () {
 
     $('#app').append(_navbar.navbar);
 
     $('#app').append(_pulse.pulse);
+
+    $('#pulse-1').append(_beat.beat);
 });

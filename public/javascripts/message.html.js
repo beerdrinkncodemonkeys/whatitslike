@@ -6,5 +6,5 @@ Object.defineProperty(exports, '__esModule', {
 
 var _import = require('underscore');
 
-var message = _import._.template('\n  <h1 class=\'text-center\'> <%= message %> </h1>\n');
+var message = _import._.template('<h1 class=\'text-center\'> <%= message %> </h1>');
 exports.message = message;
