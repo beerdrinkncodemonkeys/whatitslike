@@ -1,13 +1,13 @@
 'use strict';
 
-var _underscore = require('underscore');
+var _import = require('underscore');
 
-var _messageHtml = require('./message.html');
+var _message = require('./message.html');
 
-var _navbarHtml = require('./navbar.html');
+var _navbar = require('./navbar.html');
 
 var aMessage = 'Webber-fucking-Agnew?';
 
-$('#app').append(_navbarHtml.navbar);
+$('#app').append(_navbar.navbar);
 
-$('#app').append((0, _messageHtml.message)({ message: aMessage }));
+$('#app').append(_message.message({ message: aMessage }));
