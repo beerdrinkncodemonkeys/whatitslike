@@ -8,6 +8,12 @@ import { navbar } from './navbar.html';
 
 var aMessage = 'Webber-fucking-Agnew?';
 
-$( '#app' ).append( navbar );
+$( function() {
 
-$( '#app' ).append( message( {message: aMessage}) );
+    $( '#app' ).append( navbar );
+
+    $( '#app' ).append( message( {message: aMessage}) );    
+
+} );
+
+

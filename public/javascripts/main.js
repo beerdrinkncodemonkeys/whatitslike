@@ -8,6 +8,9 @@ var _navbar = require('./navbar.html');
 
 var aMessage = 'Webber-fucking-Agnew?';
 
-$('#app').append(_navbar.navbar);
+$(function () {
 
-$('#app').append(_message.message({ message: aMessage }));
+    $('#app').append(_navbar.navbar);
+
+    $('#app').append(_message.message({ message: aMessage }));
+});
