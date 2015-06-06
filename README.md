@@ -10,7 +10,7 @@
 
 # Purpose
 
-The ultimate goal for this project is to eventually go live with something useful. Perhaps even earn some coin - who knows?
+The ultimate goal for this project is to eventually go live with something useful. Perhaps even earn some coin - who knows? But for now it is just a pet project.
 
 # Tech stack
 
