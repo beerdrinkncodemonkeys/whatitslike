@@ -14,10 +14,10 @@ The ultimate goal for this project is to eventually go live with something usefu
 
 # Tech stack
 
-    * System.js for bundle'n
+* System.js for bundle'n
 
-    * Babel.js for transpile'n
+* Babel.js for transpile'n
 
-    * Underscore.js for template'n
+* Underscore.js for template'n
 
-    * Jspm.js for dependency manage'n
+* Jspm.js for dependency manage'n
