@@ -1,20 +1,28 @@
 'use strict';
 
-var _import = require('underscore');
+var _Message = require('./message.html');
 
-var _message = require('./message.html');
+var _Navbar = require('./navbar.html');
 
-var _navbar = require('./navbar.html');
+var _Pulse = require('./pulse.html');
 
-var _pulse = require('./pulse.html');
-
-var _beat = require('./beat.html');
+var _Beat = require('./beat.html');
 
 $(function () {
 
-    $('#app').append(_navbar.navbar);
+    var message = new _Message.Message();
 
-    $('#app').append(_pulse.pulse);
+    var beat = new _Beat.Beat();
 
-    $('#pulse-1').append(_beat.beat);
+    var navbar = new _Navbar.Navbar();
+
+    var pulse = new _Pulse.Pulse();
+
+    $('#app').append(navbar.el);
+
+    $('#app').append(pulse.el);
+
+    $('#app').append(message.el);
+
+    $('#pulse-1').append(beat.el);
 });

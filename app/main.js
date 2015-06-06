@@ -1,22 +1,30 @@
 'use strict';
 
-import { _ } from 'underscore';
+import { Message } from './message.html';
 
-import { message } from './message.html';
+import { Navbar } from './navbar.html';
 
-import { navbar } from './navbar.html';
+import { Pulse } from './pulse.html';
 
-import { pulse } from './pulse.html';
-
-import { beat } from './beat.html';
+import { Beat } from './beat.html';
 
 $( function() {
 
-    $( '#app' ).append( navbar );
+    let message = new Message();
 
-    $( '#app' ).append( pulse );
+    let beat = new Beat();
 
-    $( '#pulse-1').append( beat );
+    let navbar = new Navbar();
+
+    let pulse = new Pulse();
+    
+    $( '#app' ).append( navbar.el );
+
+    $( '#app' ).append( pulse.el );
+
+    $( '#app' ).append( message.el );
+
+    $( '#pulse-1').append( beat.el );
 
 } );
 

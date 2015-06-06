@@ -1,3 +1,12 @@
-import { _ } from 'underscore';
+'use strict';
 
-export let message = _.template( `<h1 class='text-center'> <%= message %> </h1>` );
+import { View } from './view.html';
+
+export class Message extends View {
+
+    constructor() {
+
+        super( `<div class='pulse text-center' id ='pulse-2'><h1>An awesome message</h1><hr></div>` );
+    }
+}
+
