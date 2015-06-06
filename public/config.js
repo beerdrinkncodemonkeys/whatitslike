@@ -30,6 +30,7 @@ System.config({
     "jquery": "github:components/jquery@2.1.4",
     "morgan": "npm:morgan@1.3.2",
     "serve-favicon": "npm:serve-favicon@2.2.1",
+    "text": "github:systemjs/plugin-text@0.0.2",
     "underscore": "npm:underscore@1.8.3",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"

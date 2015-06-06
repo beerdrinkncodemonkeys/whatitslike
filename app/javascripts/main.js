@@ -8,15 +8,15 @@ import { Pulse } from './pulse.html';
 
 import { Beat } from './beat.html';
 
-$( function() {
-
-    let message = new Message();
+$( function() {    
 
     let beat = new Beat();
 
     let navbar = new Navbar();
 
     let pulse = new Pulse();
+
+    let message = new Message();
     
     $( '#app' ).append( navbar.el );
 
@@ -27,5 +27,3 @@ $( function() {
     $( '#pulse-1').append( beat.el );
 
 } );
-
-
