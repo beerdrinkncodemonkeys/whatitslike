@@ -1,0 +1,20 @@
+{
+    "crime": {
+        "murdersInLastYear": 40,
+        "breakInsInLastYear": 500        
+    },
+    "housing": {
+        "avgHomePrice": 500000,
+        "avgLeasePrice": 3000        
+    },
+    "census": {
+        "totalPopulation": 30000000,
+        "avgYearlyIncome": 80000        
+    },
+    "sports": {
+        "football": "Seahawks",
+        "basketball": "N/A",
+        "hockey": "N/A",
+        "soccer": "who cares?"
+    }
+}
