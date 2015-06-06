@@ -52,3 +52,6 @@ crashlytics-build.properties
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
 public/javascripts/
+public/html
+public/json
+public/stylesheets
