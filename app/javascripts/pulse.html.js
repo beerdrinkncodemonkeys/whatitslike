@@ -1,8 +1,8 @@
 'use strict';
 
-import { View } from './view.html';
+import { Component } from './component';
 
-export class Pulse extends View {
+export class Pulse extends Component {
 
     constructor() {
 

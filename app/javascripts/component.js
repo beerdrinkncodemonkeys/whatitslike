@@ -1,8 +1,8 @@
 'use strict';
 
-import { _ } from 'underscore';
+import { _ } from '../jspm_packages/npm/underscore@1.7.0';
 
-export class View {
+export class Component {
 
     constructor( el ) {        
 

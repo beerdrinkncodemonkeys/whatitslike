@@ -1,8 +1,8 @@
 'use strict';
 
-import { View } from './view.html';
+import { Component } from './component';
 
-export class Message extends View {
+export class Message extends Component {
 
     constructor() {
 

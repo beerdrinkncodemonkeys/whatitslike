@@ -1,8 +1,8 @@
 'use strict';
 
-import { View } from './view.html';
+import { Component } from './component';
 
-export class Navbar extends View {
+export class Navbar extends Component {
 
     constructor() {
         super(`<nav class="navbar navbar-default">

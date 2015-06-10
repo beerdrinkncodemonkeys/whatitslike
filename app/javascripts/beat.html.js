@@ -1,8 +1,8 @@
 'use strict';
 
-import { View } from './view.html';
+import { Component } from './component';
 
-export class Beat extends View {
+export class Beat extends Component {
 
     constructor() {
         super( `
