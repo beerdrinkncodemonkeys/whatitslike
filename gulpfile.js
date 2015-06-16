@@ -8,7 +8,7 @@ var useref = require( 'gulp-useref');
 
 var rimraf = require( 'gulp-rimraf' );
 
-gulp.task( 'default', [ 'clean', 'json', 'images', 'html', 'js', 'css'] )
+gulp.task( 'default', [ 'clean', 'json', 'js'] )
 
 gulp.task( 'clean', function() {
 
@@ -16,13 +16,7 @@ gulp.task( 'clean', function() {
 
         'public/json/**/*.json',
 
-        'public/images/**/*.*',
-
-        'public/html/**/*.html',
-
-        'public/javascripts/**/*.js',
-
-        'public/stylesheets/**/*.css'
+        'public/javascripts/**/*.js'
 
     ],
 
@@ -50,37 +44,6 @@ gulp.task( 'json', function() {
 
 } );
 
-gulp.task( 'images', function() {
-
-    var assets = useref.assets();
-
-    return gulp.src( 'app/images/**/*.*' )
-
-        .pipe( assets )
-
-        .pipe( assets.restore() )
-
-        .pipe( useref() )
-
-        .pipe(gulp.dest( 'public/images' ));
-
-} );
-
-gulp.task( 'html', function() {
-
-    var assets = useref.assets();
-
-    return gulp.src( 'app/**/*.html' )
-
-        .pipe( assets )
-
-        .pipe( assets.restore() )
-
-        .pipe( useref() )
-
-        .pipe(gulp.dest( 'public' ));
-
-} );
 
 gulp.task( 'js', function () {    
 
@@ -96,19 +59,4 @@ gulp.task( 'js', function () {
 
 } );
 
-gulp.task( 'css', function() {
-
-    var assets = useref.assets();
-
-    return gulp.src( 'app/stylesheets/**/*.css' )
-
-        .pipe( assets )
-
-        .pipe( assets.restore() )
-
-        .pipe( useref() )
-
-        .pipe(gulp.dest( 'public/stylesheets' ));
-
-} );
 

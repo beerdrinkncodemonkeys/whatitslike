@@ -1,13 +1,13 @@
 'use strict';
 
-import { Component } from './component';
+import React from 'react';
 
-export class Beat extends Component {
+export class Beat extends React.Component {
 
-    constructor() {
-        super( `
-                <div class='beat'>
-                    <table class='table table-responsive'>
+    render() {
+        return <div className='beat'>
+
+        <table class='table table-responsive'>
                         <thead>
                             <tr>
                                 <th>Year</th>
@@ -48,8 +48,9 @@ export class Beat extends Component {
                         </tbody>
                         </thead>
                     </table>
-                </div>
 
-            `);
+        </div>;
     }
 }
+
+React.render(<Beat />, document.getElementById('container') );
